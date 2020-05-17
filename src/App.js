@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+// import { Switch, Route } from "react-router-dom";
+import "foundation-sites/dist/css/foundation.min.css";
+// import {Switch, Route} from 'react-router-dom'
+import "./assets/css/main.min.css";
 import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainContent from "./components/MainContent";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ 
+    return (
+        <React.Fragment>
+            {/* <Header /> */}
+            <MainContent />
+            <Footer />
+        </React.Fragment>
+    );
 }
 
 export default App;

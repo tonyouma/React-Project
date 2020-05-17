@@ -1,0 +1,70 @@
+body {
+    // padding: 0 10%;
+    // margin: 0 10%;
+    font-family: lato, arial, sans-serif;
+}
+
+.home {
+    padding-top: 40px;
+    background: url("../img/Bg Image@2x.jpg") center;
+    background-size: cover;
+}
+
+.connect {
+    background-color: #979797;
+    &-content {
+        width: 50% !important;
+    }
+    .card {
+        border: none;
+        border-radius: 0px;
+        height: 400px;
+        background-color: #656565;
+    }
+}
+
+.subscription {
+    color: $primary-white;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-image: url("../img/Subsciption Image@2x.png");
+    background-size: cover;
+    h5 {
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .button {
+        padding: 46px, 17px;
+        margin-bottom: 0;
+        border-radius: 0 0 0 0;
+    }
+    .yellow-button {
+        background-color: $primary-yellow;
+    }
+}
+
+card {
+    border: none;
+    border-radius: 0px;
+    height: 400px !important;
+    background-color: #656565;
+}
+
+.partners {
+    background-color: $light-dark;
+    .card {
+        border: none;
+        border-radius: 3px;
+        background-color: #D8D8D8;
+        height: 300px;
+        text-align: center;
+        padding-right: .9375rem !important;
+        padding-left: .9375rem !important;
+        &:hover {
+            background-color: #FFFFFF;
+        }
+    }
+}

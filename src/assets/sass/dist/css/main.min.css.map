@@ -1,0 +1,28 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../main.scss",
+        "../../abstracts/_mixins.scss",
+        "../../abstracts/_variables.scss",
+        "../../base/_reset.scss",
+        "../../base/_typography.scss",
+        "../../components/_buttons.scss",
+        "../../components/_carousel.scss",
+        "../../components/_cover.scss",
+        "../../components/_dropdown.scss",
+        "../../layout/_footer.scss",
+        "../../layout/_forms.scss",
+        "../../layout/_grid.scss",
+        "../../layout/_header.scss",
+        "../../layout/_navigation.scss",
+        "../../layout/_sidebar.scss",
+        "../../pages/_contact.scss",
+        "../../pages/_home.scss",
+        "../../themes/_admin.scss",
+        "../../themes/_theme.scss",
+        "../../vendors/_foundation.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

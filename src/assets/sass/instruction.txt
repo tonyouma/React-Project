@@ -1,0 +1,8 @@
+abstracts folder ---contains helper files
+vendors folder ---contains third-party files
+base folder ---contains boilerplate files
+layout folder ---contains structure files
+components folder ---contains specific component files
+pages folder ---contains page specific files
+themes folder ---contains multiple theme files
+dist folder --- contains the compiled css files
