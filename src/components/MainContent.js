@@ -77,8 +77,12 @@ export class MainContent extends Component {
                     />
                   </a>
                 </Cell>
-                <Cell medium={4} className="medium-offset-4" small={6} >
-                  <ul className="menu float-right social-icons align-self-bottom">
+                <Cell
+                  medium={4}
+                  className="medium-offset-4 align-self-bottom"
+                  small={6}
+                >
+                  <div className="menu float-right social-icons ">
                     <a href="https://www.facebook.com/brcknet">
                       <i class="fab fa-facebook-square"></i>
                     </a>{" "}
@@ -88,18 +92,18 @@ export class MainContent extends Component {
                     <a href="https://twitter.com/brcknet">
                       <i class="fab fa-twitter"></i>
                     </a>
-                  </ul>
+                  </div>
                 </Cell>
               </Grid>
             </section>
             {/* End of Homepage */}
 
             {/* Discover Moja */}
-            <Discover/>
+            <Discover />
             {/* end of Discover Moja */}
 
             {/* Connect to Moja */}
-            <div className="connect layout-pad">
+            <section className="connect layout-pad">
               <Grid>
                 <Cell small={12} className="connect-content text-center">
                   <h2>how to connect to moja</h2>
@@ -114,7 +118,7 @@ export class MainContent extends Component {
               </Grid>
               <Grid className="grid-padding-x">
                 <Cell medium={7} small={12} columns>
-                  <div className="card">
+                  <div className="card card-bg">
                     <img
                       src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
                       alt=""
@@ -163,7 +167,7 @@ export class MainContent extends Component {
                   </div>
                 </Cell>
               </Grid>
-            </div>
+            </section>
 
             <Partners partnersItem={partnersItem}></Partners>
 
