@@ -3,6 +3,11 @@ footer {
     background-color: $primary-dark;
     color: #9B9B9B;
     padding: 10% 0;
+    h4,
+    h5 {
+        text-transform: capitalize;
+        color: $primary-white;
+    }
     li {
         list-style: none;
         font-size: 12px;

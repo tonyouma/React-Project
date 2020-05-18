@@ -16,7 +16,7 @@ export class footer extends Component {
                   <p>CONNECTING EMERGING MARKETS<br></br> TO THE MARKETS</p>
                 </Cell>
                 <Cell medium={4}>
-                  <span>Solving hard problems</span>
+                  <h4>Solving hard problems</h4>
                   <p>
                     We do hard things. As we grow, we do so in fits and starts,
                     lurching forward then back, sometimes looking more like
@@ -31,14 +31,14 @@ export class footer extends Component {
                   <img src={process.env.PUBLIC_URL + "/graphics/logo.svg"} alt="logo"/>
                 </Cell>
                 <Cell className="medium-offset-2" medium={2} small={6}>
-                  <span>Office</span>
+                  <h5>Office</h5>
                   <hr/>
                   <li>2nd Floor, Bishop Magua Center,</li>
                   <li>George Padmore Lane</li>
                   <li>Nairobi, Kenya</li>
                 </Cell>
                 <Cell medium={2} small={6}>
-                  <span>talk to us</span>
+                  <h5>talk to us</h5>
                   <hr/>
                   <li>
                     General:{" "}
@@ -57,13 +57,13 @@ export class footer extends Component {
                   <li>Nairobi, Kenya</li>
                 </Cell>
                 <Cell medium={2} small={6}>
-                  <span>other sites</span>
+                  <h5>other sites</h5>
                   <hr/>
                   <li>brck.com</li>
                   <li>magma.com</li>
                 </Cell>
                 <Cell medium={2} small={6}>
-                  <span>social</span>
+                  <h5>social</h5>
                   <hr/>
                   <li>Facebook</li>
                   <li>Twitter</li>

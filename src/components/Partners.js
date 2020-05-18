@@ -16,7 +16,7 @@ export default ({partnersItem}) => {
               <strong>our</strong> <br></br> partners
             </h2>
           </Cell>
-          <Cell medium={6}>
+          <Cell medium={6} className="text-capitalize">
             <p className="p-text">
               How many people will be asking questions? From experience I can
               tell you there’s nothing like walking into a room and seeing nine
@@ -27,11 +27,18 @@ export default ({partnersItem}) => {
         </Grid>
         <Grid className=" grid-padding-x ">
           {partnersItem &&
-            partnersItem.map(({ caption, img }, index) => (
+            partnersItem.map(({ caption, img, id }, index) => (
               <Cell medium={3} small={12}>
                 <div className="card">
-                  <img src={img} alt=""></img>
-                  <p>{caption}</p>
+                  <div className="card-section">
+                    <img
+                      src={img}
+                      alt="partnerLogo"
+                    ></img>
+                  </div>
+                  <div className="card-section">
+                    <p>{caption}</p>
+                  </div>
                 </div>
               </Cell>
             ))}
