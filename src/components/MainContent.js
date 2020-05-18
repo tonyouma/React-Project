@@ -80,13 +80,13 @@ export class MainContent extends Component {
                 <Cell medium={4} className="medium-offset-4" small={6} >
                   <ul className="menu float-right social-icons align-self-bottom">
                     <a href="https://www.facebook.com/brcknet">
-                      <i class="fas fa-facebook-square"></i>
+                      <i class="fab fa-facebook-square"></i>
                     </a>{" "}
                     <a href="https://www.instagram.com/brcknet/">
-                      <i class="fas fa-instagram"></i>
+                      <i class="fab fa-instagram"></i>
                     </a>{" "}
                     <a href="https://twitter.com/brcknet">
-                      <i class="fas fa-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                     </a>
                   </ul>
                 </Cell>
