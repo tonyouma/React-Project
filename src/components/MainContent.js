@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation';
 import Partners from "./Partners";
 import styled from "styled-components";
+import Discover from "./Discover";
 
 export class MainContent extends Component {
   
@@ -68,7 +69,7 @@ export class MainContent extends Component {
                 </Cell>
               </Grid>
               <Grid>
-                <Cell medium={4} className="align-justify">
+                <Cell medium={4} className="align-justify" small={6}>
                   <a href="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                     <img
                       src={process.env.PUBLIC_URL + "/graphics/Group 3.jpg"}
@@ -76,8 +77,8 @@ export class MainContent extends Component {
                     />
                   </a>
                 </Cell>
-                <Cell medium={4}>
-                  <ul className="menu align-right social-icons">
+                <Cell medium={4} className="medium-offset-4" small={6} >
+                  <ul className="menu float-right social-icons align-self-bottom">
                     <a href="https://www.facebook.com/brcknet">
                       <i class="fas fa-facebook-square"></i>
                     </a>{" "}
@@ -92,6 +93,10 @@ export class MainContent extends Component {
               </Grid>
             </section>
             {/* End of Homepage */}
+
+            {/* Discover Moja */}
+            <Discover/>
+            {/* end of Discover Moja */}
 
             {/* Connect to Moja */}
             <div className="connect layout-pad">

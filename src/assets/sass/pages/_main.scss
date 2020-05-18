@@ -37,6 +37,23 @@ h6 {
     }
 }
 
+.discover-section {
+    background-color: #494949;
+    color: $primary-white;
+    ul {
+        color: $primary-yellow;
+        li {
+            list-style-type: square;
+            h5 {
+                color: $primary-white;
+            }
+            p {
+                color: $primary-white;
+            }
+        }
+    }
+}
+
 .connect {
     background-color: #979797;
     &-content {
@@ -93,6 +110,7 @@ card {
         padding-left: .9375rem !important;
         &:hover {
             background-color: #FFFFFF;
+            cursor: pointer;
         }
     }
 }
