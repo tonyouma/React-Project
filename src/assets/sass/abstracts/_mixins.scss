@@ -1,1 +1,32 @@
 // Sass mixin
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+// margin and padding classes
+$spaceamounts: (2, 3, 4, 6, 8, 10, 11, 12);
+@each $space in $spaceamounts {
+    .width-#{$space} {
+        width: #{$space}rem;
+    }
+}
+
+// margin and padding classes
+$spaceamounts: (0, 2, 3, 4);
+@each $space in $spaceamounts {
+    .mar-left-#{$space} {
+        margin-left: #{$space}rem;
+    }
+    .mar-top-bot0#{$space} {
+        margin: #{$space}rem 0;
+    }
+    // .my-#{$space} {
+    //     margin: #{$space}rem 0;
+    // }
+    // .p-#{$space} {
+    //     padding: #{$space}rem;
+    // }
+    // .py-#{$space} {
+    //     padding: #{$space}rem 0;
+    // }
+}

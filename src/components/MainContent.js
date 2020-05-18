@@ -55,7 +55,7 @@ export class MainContent extends Component {
                 <h1>
                   we're the ones
                   <span> connecting everyone to the internet</span>
-                  <hr></hr>
+                  <hr className="width-11 mar-left-0 yellow-7"></hr>
                 </h1>
               </Cell>
               <Grid>
@@ -107,7 +107,7 @@ export class MainContent extends Component {
               <Grid>
                 <Cell small={12} className="connect-content text-center">
                   <h2>how to connect to moja free WiFi</h2>
-                  <hr></hr>
+                  <hr className="width-10 yellow-5"></hr>
                   <p>
                     How many people will be asking questions? From experience I
                     can tell you there’s nothing like walking into a room and
@@ -128,16 +128,14 @@ export class MainContent extends Component {
                 <Cell medium={5} small={12}>
                   <div className="card">
                     <div className="card-body">
-                      {" "}
                       <span class="connect-0">02</span>
-                      <p class="connect-steps">
-                        Connect To Moja Free WiFi
-                        <span class="connect-steps-02">
-                          How many people will be asking questions? From
-                          experience I tell you there’s nothing like walking
-                          into a room and seeing people on the other side of the
-                          table. Second, what will you be asked.
-                        </span>
+                      <h5>Connect To Moja Free WiFi</h5>
+                      <hr className="width-3 mar-left-0 yellow-5"></hr>
+                      <p>
+                        How many people will be asking questions? From
+                        experience I tell you there’s nothing like walking into
+                        a room and seeing people on the other side of the table.
+                        Second, what will you be asked.
                       </p>
                     </div>
                   </div>

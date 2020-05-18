@@ -146,6 +146,7 @@ card {
         padding-right: .9375rem !important;
         padding-left: .9375rem !important;
         &:hover {
+            @include transition-ease;
             background-color: #FFFFFF;
             cursor: pointer;
         }
