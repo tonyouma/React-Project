@@ -43,20 +43,53 @@ export class MainContent extends Component {
             <Grid></Grid>
             <section className="home layout-pad">
               <Cell medium={3}>
-                <a href="">
+                <a>
                   <img
                     src={process.env.PUBLIC_URL + "/graphics/Moja-black.png"}
                     alt="logo"
                   ></img>
                 </a>
               </Cell>
-              <Cell medium={10} className="home-content">
+              <Cell medium={10} small={12} className="home-content">
                 <h1>
                   we're the ones
+                  <span> connecting everyone to the internet</span>
                   <hr></hr>
-                  <span>connecting everyone to the internet</span>
                 </h1>
               </Cell>
+              <Grid>
+                <Cell medium={5} small={12}>
+                  <p>
+                    How many people will be asking questions? From experience I
+                    can tell you there’s nothing like walking into a room and
+                    seeing nine people on the other side of the table.Second,
+                    what will you be asked.
+                  </p>
+                </Cell>
+              </Grid>
+              <Grid>
+                <Cell medium={4} className="align-justify">
+                  <a href="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                    <img
+                      src={process.env.PUBLIC_URL + "/graphics/Group 3.jpg"}
+                      alt="google-logo"
+                    />
+                  </a>
+                </Cell>
+                <Cell medium={4}>
+                  <ul className="menu align-right social-icons">
+                    <a href="https://www.facebook.com/brcknet">
+                      <i class="fas fa-facebook-square"></i>
+                    </a>{" "}
+                    <a href="https://www.instagram.com/brcknet/">
+                      <i class="fas fa-instagram"></i>
+                    </a>{" "}
+                    <a href="https://twitter.com/brcknet">
+                      <i class="fas fa-twitter"></i>
+                    </a>
+                  </ul>
+                </Cell>
+              </Grid>
             </section>
             {/* End of Homepage */}
 

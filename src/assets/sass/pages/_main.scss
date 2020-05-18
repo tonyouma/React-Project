@@ -16,15 +16,24 @@ h6 {
 .home {
     padding-top: 40px;
     color: $primary-white;
-    text-transform: uppercase;
     background: url("../img/Bg Image@2x.jpg") center;
     background-size: cover;
     &-content {
         padding-top: 120px;
-        width: 50% !important;
+        width: 52% !important;
     }
     h1 {
         font-weight: 100;
+        text-transform: uppercase;
+        line-height: 1.2;
+        span {
+            line-height: 0.9 !important;
+        }
+    }
+    p {
+        line-height: 1.4;
+        margin-top: 5vh;
+        margin-bottom: 16vh;
     }
 }
 
