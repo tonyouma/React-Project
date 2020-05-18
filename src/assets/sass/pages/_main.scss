@@ -4,16 +4,35 @@ body {
     font-family: lato, arial, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "proxima-nova", sans-serif !important;
+}
+
 .home {
     padding-top: 40px;
+    color: $primary-white;
+    text-transform: uppercase;
     background: url("../img/Bg Image@2x.jpg") center;
     background-size: cover;
+    &-content {
+        padding-top: 120px;
+        width: 50% !important;
+    }
+    h1 {
+        font-weight: 100;
+    }
 }
 
 .connect {
     background-color: #979797;
     &-content {
-        width: 50% !important;
+        // width: 50% !important;
+        padding: 0 20%;
     }
     .card {
         border: none;

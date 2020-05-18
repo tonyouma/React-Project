@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation';
 import Partners from "./Partners";
+import styled from "styled-components";
 
 export class MainContent extends Component {
   
@@ -39,21 +40,30 @@ export class MainContent extends Component {
         return (
           <Fragment>
             {/* Homepage */}
-            <Grid className="home layout-pad">
-              <Cell medium={10}>
+            <Grid></Grid>
+            <section className="home layout-pad">
+              <Cell medium={3}>
+                <a href="">
+                  <img
+                    src={process.env.PUBLIC_URL + "/graphics/Moja-black.png"}
+                    alt="logo"
+                  ></img>
+                </a>
+              </Cell>
+              <Cell medium={10} className="home-content">
                 <h1>
                   we're the ones
                   <hr></hr>
                   <span>connecting everyone to the internet</span>
                 </h1>
               </Cell>
-            </Grid>
+            </section>
             {/* End of Homepage */}
 
             {/* Connect to Moja */}
             <div className="connect layout-pad">
               <Grid>
-                <Cell small={12} className="connect-content">
+                <Cell small={12} className="connect-content text-center">
                   <h2>how to connect to moja</h2>
                   <hr></hr>
                   <p>
@@ -154,3 +164,15 @@ export class MainContent extends Component {
 }
 
 export default MainContent;
+
+// const hrStyled = styled.hr`
+//   clear: both;
+//   max-width: 75rem;
+//   height: 5px;
+//   margin: 1.25rem auto;
+//   border-top: 0;
+//   border-right: 0;
+//   border-bottom: 1px solid #cacaca;
+//   border-left: 0;
+//   width: 20%;
+// `;
