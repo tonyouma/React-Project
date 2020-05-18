@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation';
 import Partners from "./Partners";
-import styled from "styled-components";
+// import styled from "styled-components";
 import Discover from "./Discover";
 
 export class MainContent extends Component {
@@ -44,7 +44,7 @@ export class MainContent extends Component {
             <Grid></Grid>
             <section className="home layout-pad">
               <Cell medium={3}>
-                <a>
+                <a href="/">
                   <img
                     src={process.env.PUBLIC_URL + "/graphics/Moja-black.png"}
                     alt="logo"
@@ -106,7 +106,7 @@ export class MainContent extends Component {
             <section className="connect layout-pad">
               <Grid>
                 <Cell small={12} className="connect-content text-center">
-                  <h2>how to connect to moja</h2>
+                  <h2>how to connect to moja free WiFi</h2>
                   <hr></hr>
                   <p>
                     How many people will be asking questions? From experience I

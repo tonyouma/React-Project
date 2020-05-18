@@ -4,7 +4,6 @@ import "foundation-sites/dist/css/foundation.min.css";
 // import {Switch, Route} from 'react-router-dom'
 import "./assets/css/main.min.css";
 import './App.css';
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 

@@ -51,8 +51,8 @@ h6 {
     color: $primary-white;
     &-intro {
         margin-bottom: 20vh;
-        h1 {
-            line-height: 1.1;
+        h2 {
+            line-height: 1.1 !important;
         }
     }
     ul {
@@ -71,9 +71,13 @@ h6 {
 
 .connect {
     background-color: #979797;
+    color: $primary-white;
     &-content {
         // width: 50% !important;
-        padding: 0 20%;
+        padding: 0 26%;
+        h2 {
+            text-transform: capitalize;
+        }
     }
     .card {
         border: none;
@@ -119,6 +123,20 @@ card {
 
 .partners {
     background-color: $light-dark;
+    h2 {
+        font-weight: lighter;
+        color: $primary-white;
+        line-height: 1.2;
+        text-transform: capitalize;
+        padding-top: 6vh;
+        padding-bottom: 2vh;
+    }
+    .p-text {
+        padding-top: 12vh;
+        padding-bottom: 3vh;
+        color: $primary-white;
+        line-height: 1.4;
+    }
     .card {
         border: none;
         border-radius: 3px;
