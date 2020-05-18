@@ -27,7 +27,10 @@ export class footer extends Component {
                 
               </Grid>
               <Grid>
-                <Cell className="medium-offset-4" medium={2} small={6}>
+                <Cell medium={2}>
+                  <img src={process.env.PUBLIC_URL + "/graphics/logo.svg"}/>
+                </Cell>
+                <Cell className="medium-offset-2" medium={2} small={6}>
                   <span>Office</span>
                   <hr/>
                   <li>2nd Floor, Bishop Magua Center,</li>
