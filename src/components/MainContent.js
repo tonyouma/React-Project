@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation';
+import {Link} from 'react-router-dom'
 import Partners from "./Partners";
-// import styled from "styled-components";
 import Discover from "./Discover";
-import PartnersList from "./PartnersList";
+
 
 export class MainContent extends Component {
   
@@ -15,12 +15,12 @@ export class MainContent extends Component {
             <Grid></Grid>
             <section className="home layout-pad">
               <Cell medium={3}>
-                <a href="/">
+                <Link href="/">
                   <img
                     src={process.env.PUBLIC_URL + "/graphics/Moja-black.png"}
                     alt="logo"
                   ></img>
-                </a>
+                </Link>
               </Cell>
               <Cell medium={10} small={12} className="home-content">
                 <h1>
@@ -41,12 +41,12 @@ export class MainContent extends Component {
               </Grid>
               <Grid>
                 <Cell medium={4} className="align-justify" small={6}>
-                  <a href="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                  <Link href="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                     <img
                       src={process.env.PUBLIC_URL + "/graphics/Group 3.jpg"}
                       alt="google-logo"
                     />
-                  </a>
+                  </Link>
                 </Cell>
                 <Cell
                   medium={4}
@@ -54,15 +54,15 @@ export class MainContent extends Component {
                   small={6}
                 >
                   <div className="menu float-right social-icons ">
-                    <a href="https://www.facebook.com/brcknet">
+                    <Link href="https://www.facebook.com/brcknet">
                       <i class="fab fa-facebook-square"></i>
-                    </a>{" "}
-                    <a href="https://www.instagram.com/brcknet/">
+                    </Link>{" "}
+                    <Link href="https://www.instagram.com/brcknet/">
                       <i class="fab fa-instagram"></i>
-                    </a>{" "}
-                    <a href="https://twitter.com/brcknet">
+                    </Link>{" "}
+                    <Link href="https://twitter.com/brcknet">
                       <i class="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </div>
                 </Cell>
               </Grid>
@@ -175,15 +175,3 @@ export class MainContent extends Component {
 }
 
 export default MainContent;
-
-// const hrStyled = styled.hr`
-//   clear: both;
-//   max-width: 75rem;
-//   height: 5px;
-//   margin: 1.25rem auto;
-//   border-top: 0;
-//   border-right: 0;
-//   border-bottom: 1px solid #cacaca;
-//   border-left: 0;
-//   width: 20%;
-// `;

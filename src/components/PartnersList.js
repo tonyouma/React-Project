@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import {Link, Grid, Cell} from 'react-foundation'
-import { ProductConsumer} from './context'
+import {Cell} from 'react-foundation'
+
 
 export class PartnersList extends Component {
     render() {
-        const {id, caption, img} = this.props.item;
+        const {caption, img} = this.props.item;
         return (
             
              

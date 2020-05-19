@@ -5,9 +5,9 @@ import {ProductConsumer} from './context'
 import PartnersList from './PartnersList';
 
 export default class Partners extends Component {
-   state = {
-     products : partnersItem
-   };
+  //  state = {
+  //    products : partnersItem
+  //  };
    render(){ 
 
     return (

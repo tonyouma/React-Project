@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter as Router} from 'react-router-dom'
 import 'foundation-sites/dist/css/foundation.min.css'
 import './index.css';
 // import styled from 'styled-components'
@@ -10,7 +11,9 @@ import { ProductProvider } from './components/context';
 ReactDOM.render(
   <React.StrictMode>
     <ProductProvider>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </ProductProvider>
   </React.StrictMode>,
   document.getElementById("root")
