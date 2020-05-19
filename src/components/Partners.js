@@ -1,8 +1,15 @@
-import React from 'react'
+import React, {Component} from 'react'
 import { Grid, Cell } from "react-foundation";
+import {partnersItem} from './data'
+import {ProductConsumer} from './context'
+import PartnersList from './PartnersList';
 
-export default ({partnersItem}) => {
-    
+export default class Partners extends Component {
+   state = {
+     products : partnersItem
+   };
+   render(){ 
+
     return (
       <section className="layout-pad partners grid-padding-x ">
         <Grid>
@@ -25,25 +32,18 @@ export default ({partnersItem}) => {
             </p>
           </Cell>
         </Grid>
-        <Grid className=" grid-padding-x ">
-          {partnersItem &&
-            partnersItem.map(({ caption, img, id }, index) => (
-              <Cell medium={3} small={12}>
-                <div className="card">
-                  <div className="card-image">
-                    <img
-                      src={img}
-                      alt="partnerLogo"
-                    ></img>
-                  </div>
-                  <div className="card-section">
-                    <p>{caption}</p>
-                  </div>
-                </div>
-              </Cell>
-            ))}
+  
+        <Grid className="grid-padding-x">
+          <ProductConsumer>
+            {(value) => {
+              return value.partnersItem.map((item) => {
+                return <PartnersList key = {item.id} item={item} />;
+              });
+            }}
+          </ProductConsumer>
         </Grid>
       </section>
     );
+            }
 }
 
