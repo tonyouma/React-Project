@@ -30,7 +30,7 @@ export default ({partnersItem}) => {
             partnersItem.map(({ caption, img, id }, index) => (
               <Cell medium={3} small={12}>
                 <div className="card">
-                  <div className="card-section">
+                  <div className="card-image">
                     <img
                       src={img}
                       alt="partnerLogo"
