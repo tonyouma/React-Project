@@ -124,17 +124,19 @@ export class MainContent extends Component {
               </Grid>
               <Grid className="grid-padding-x">
                 <Cell medium={7} small={12} columns>
-                  <div className="card card-bg">
-                    <img
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
+                  <div className="card">
+                    <div className="card-image">
+                      <img
+                        src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </Cell>
                 <Cell medium={5} small={12}>
                   <div className="card">
                     <div className="card-body">
-                      <span class="connect-0">02</span>
+                      <span>02</span>
                       <h5>Connect To Moja Free WiFi</h5>
                       <hr className="width-3 mar-left-0 yellow-5"></hr>
                       <p>
@@ -150,28 +152,24 @@ export class MainContent extends Component {
               <Grid className="connect grid-padding-x ">
                 <Cell medium={5} small={12} className="columns">
                   <div className="card">
-                    <div class="card connect-card">
-                      <div className="card-body">
-                        {" "}
-                        <span class="connect-0">03</span>
-                        <p className="connect-steps">Enjoy Free Content, QR</p>
-                      </div>
+                    <div className="card-body">
+                      <span>03</span>
+                      <h5 className="connect-steps">Enjoy Free Content, QR</h5>
                     </div>
                   </div>
                 </Cell>
                 <Cell medium={7} small={12}>
                   <div className="card">
-                    <div class="card connect-card">
-                      <div class="card-body">
-                        {" "}
-                        <span class="connect-0">04</span>
-                        <p class="connect-steps">Click On ‘Go Online’</p>
-                      </div>
+                    <div className="card-body">
+                      <span>04</span>
+                      <h5 class="connect-steps">Click On ‘Go Online’</h5>
                     </div>
                   </div>
                 </Cell>
               </Grid>
             </section>
+
+            {/* End of Connect Section */}
 
             <Partners partnersItem={partnersItem}></Partners>
 

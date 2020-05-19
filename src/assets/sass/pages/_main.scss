@@ -72,6 +72,9 @@ h6 {
 .connect {
     background-color: #979797;
     color: $primary-white;
+    p {
+        line-height: 1.3;
+    }
     &-content {
         // width: 50% !important;
         padding: 0 26%;
@@ -84,10 +87,31 @@ h6 {
         border-radius: 0px;
         height: 400px;
         background-color: #656565;
-        // &-bg {
-        //     background-image: url("../img/ch.jpg");
-        //     background-position-x: center;
-        // }
+        &:hover {
+            background-color: #D8D8D8;
+            @include transition-ease;
+        }
+        &-body {
+            padding: 1rem;
+            // padding-bottom: 20px;
+            margin-top: auto;
+            h5 {
+                font-size: 22px;
+                line-height: 20px;
+                font-weight: bold;
+                color: $primary-white;
+            }
+            span {
+                opacity: 0.5;
+                color: #9B9B9B;
+                font-size: 82px;
+                font-weight: 900;
+                line-height: 99px;
+            }
+            hr {
+                margin: .5rem 0;
+            }
+        }
     }
 }
 
@@ -132,6 +156,7 @@ card {
         padding-bottom: 2vh;
     }
     .p-text {
+        color: #333333;
         padding-top: 12vh;
         padding-bottom: 3vh;
         color: $primary-white;
@@ -146,8 +171,6 @@ card {
         img {
             padding: 1.8rem 2.2rem;
         }
-        // padding-right: .9375rem !important;
-        // padding-left: .9375rem !important;
         &:hover {
             @include transition-ease;
             background-color: #FFFFFF;
