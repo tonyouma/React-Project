@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-foundation';
 import {Link} from 'react-router-dom'
 import Partners from "./Partners";
 import Discover from "./Discover";
+// import TestDiscover from "./Discover";
 
 
 export class MainContent extends Component {
@@ -71,6 +72,7 @@ export class MainContent extends Component {
 
             {/* Discover Moja */}
             <Discover />
+            {/* <TestDiscover /> */}
             {/* end of Discover Moja */}
 
             {/* Connect to Moja */}

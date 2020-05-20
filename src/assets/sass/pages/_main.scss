@@ -48,23 +48,80 @@ h6 {
     background-color: #494949;
     color: $primary-white;
     &-intro {
-        margin-bottom: 20vh;
+        margin-bottom: 12vh;
         h2 {
             line-height: 1.1 !important;
         }
     }
-    ul {
-        color: $primary-yellow;
-        li {
-            list-style-type: square;
-            h5 {
-                color: $primary-white;
+    .container {
+        // position: relative;
+        overflow: visible;
+        img {
+            width: 60% !important;
+        }
+        .card {
+            position: relative;
+            background: transparent;
+            border: none;
+            overflow: visible;
+            .img-big {
+                width: 60%;
+                float: right;
+                opacity: 0.3;
+                // &-right {
+                //     margin-right: 20px;
+                // }
+                &.hover {
+                    cursor: pointer;
+                }
             }
-            p {
-                color: $primary-white;
+            .img-small {
+                padding-top: 50%;
+                width: 32% !important;
+                opacity: 0.3;
+                float: right;
+            }
+            ul {
+                // bottom: 0;
+                // margin-top: auto;
+                position: absolute;
+                color: $primary-yellow;
+                li {
+                    vertical-align: middle;
+                    list-style-type: square;
+                    list-style-position: outside;
+                    h5 {
+                        color: $primary-white;
+                    }
+                    p {
+                        color: $primary-white;
+                    }
+                    &::marker {}
+                }
+                li::before {
+                    color: red !important;
+                }
             }
         }
+        .small-box {
+            height: 63px;
+            width: 63px;
+            margin-top: 50%;
+            float: right;
+            border: 3px dotted $primary-white;
+        }
+        .small-box-5 {
+            height: 63px;
+            width: 63px;
+            margin-top: 50%;
+            float: right;
+            border: 5px dotted $primary-white;
+        }
     }
+}
+
+.pad-top-bottom {
+    padding: 20% 0;
 }
 
 .connect {
@@ -178,4 +235,37 @@ card {
             line-height: 1.4;
         }
     }
+}
+
+// Discover-ItemTest
+.container-item {
+    position: relative;
+    .card {
+        height: 210px;
+        color: $primary-white;
+    }
+    li {
+        position: absolute;
+    }
+    .img-big {
+        width: 60%;
+        float: right;
+        opacity: 0.3;
+        // &-right {
+        //     margin-right: 20px;
+        // }
+        &.hover {
+            cursor: pointer;
+        }
+    }
+    .img-small {
+        padding-top: 50%;
+        width: 30% !important;
+        opacity: 0.3;
+        float: right;
+    }
+}
+
+.pad-top12 {
+    padding-top: 12vh;
 }
