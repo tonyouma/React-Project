@@ -21,138 +21,7 @@ class Discover extends Component {
                 </p>
               </Cell>
             </Grid>
-            {/* <Grid className="grid-padding-x ">
-              <Cell medium={4} className="container ">
-                <div className="card">
-                  <ul className="">
-                    <li>
-                      <h5>Earn points</h5>
-                      <p>
-                        How many people will be asking questons? From experience
-                        I can tell you there is nothing like waliking into a
-                        room seeing nine people on the other side of
-                      </p>
-                    </li>
-                  </ul>
-                  <div>
-                    <img
-                      className="img-big"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                    <img
-                      className="img-small"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </Cell>
-              <Cell medium={4} className="container ">
-                <div className="card">
-                  <ul className="pad-top-bottom">
-                    <li>
-                      <h5>Earn points</h5>
-                      <p>
-                        How many people will be asking questons? From
-                      </p>
-                    </li>
-                  </ul>
-                  <div>
-                    <img
-                      className="img-big"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                    <img
-                      className="img-small"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </Cell>
-              <Cell medium={4} className="container ">
-                <div className="card">
-                  <div>
-                    <img
-                      className="img-big"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                    <div className="small-box-5"></div>
-                  </div>
-                </div>
-              </Cell>
-            </Grid>
-            <Grid className="grid-margin-x">
-              <Cell medium={4} className="container">
-                <ul>
-                  <li>
-                    <h5>News</h5>
-                    <p>
-                      How many people will be asking questons? From experience I
-                      can tell you there is nothing like waliking into a room
-                      seeing nine people on the other side of
-                    </p>
-                  </li>
-                </ul>
-              </Cell>
-              <Cell medium={4} className="container">
-                <ul>
-                  <li>
-                    <h5>Videos</h5>
-                    <p>
-                      How many people will be asking questons? From experience I
-                      can tell you there is nothing like waliking
-                    </p>
-                  </li>
-                </ul>
-              </Cell>
-            </Grid>
-            <Grid className="grid-margin-x">
-              <Cell medium={4} className="container ">
-                <div className="card">
-                  <ul className="">
-                    <li>
-                      <h5>Earn points</h5>
-                      <p>
-                        How many people will be asking questons? From experience
-                        I can tell you there is nothing like waliking into a
-                        room seeing nine people on the other side of
-                      </p>
-                    </li>
-                  </ul>
-                  <div>
-                    <img
-                      className="img-big"
-                      src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                      alt=""
-                    />
-                    <div className="small-box"></div>
-                  </div>
-                </div>
-              </Cell>
-              <Cell medium={5} className="container">
-                <ul>
-                  <li>
-                    <h5>Weather</h5>
-                    <p>
-                      How many people will be asking questons? From experience I
-                      can tell you there is nothing like waliking into a room
-                      seeing nine people on the other side of
-                    </p>
-                  </li>
-                </ul>
-              </Cell>
-              <Cell medium={3} className="text-right">
-                <img
-                  className=""
-                  src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
-                  alt=""
-                />
-              </Cell>
-            </Grid> */}
+           
             <Grid className="grid-padding-x ">
               <Cell medium={4}>
                 <div className="container pad-top12">
@@ -286,7 +155,7 @@ class Discover extends Component {
                     <div className="container-item">
                       <div>
                         <img
-                          className="img-big"
+                          className=""
                           src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
                           alt=""
                         />
