@@ -47,8 +47,9 @@ h6 {
 .discover-section {
     background-color: #494949;
     color: $primary-white;
+    padding-bottom: 30vh;
     &-intro {
-        margin-bottom: 12vh;
+        margin-bottom: 9vh;
         h2 {
             line-height: 1.1 !important;
         }
@@ -56,9 +57,9 @@ h6 {
     .container {
         // position: relative;
         overflow: visible;
-        img {
-            width: 60% !important;
-        }
+        // img {
+        //     width: 60% !important;
+        // }
         .card {
             position: relative;
             background: transparent;
@@ -113,8 +114,9 @@ h6 {
         .small-box-5 {
             height: 63px;
             width: 63px;
-            margin-top: 50%;
-            float: right;
+            // margin-top: 50%;
+            // float: right;
+            margin-left: -20%;
             border: 5px dotted $primary-white;
         }
     }
@@ -240,6 +242,9 @@ card {
 // Discover-ItemTest
 .container-item {
     position: relative;
+    img {
+        width: 100%;
+    }
     .card {
         height: 210px;
         color: $primary-white;

@@ -159,7 +159,7 @@ class Discover extends Component {
                           src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
                           alt=""
                         />
-                        <div className="small-box"></div>
+                        <div className="small-box-5"></div>
                       </div>
                     </div>
                   </ul>
