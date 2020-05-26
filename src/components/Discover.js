@@ -21,7 +21,7 @@ class Discover extends Component {
                 </p>
               </Cell>
             </Grid>
-           
+
             <Grid className="grid-padding-x ">
               <Cell medium={4}>
                 <div className="container pad-top12">
@@ -94,9 +94,7 @@ class Discover extends Component {
                       <div className="card">
                         <li className="pad-top12">
                           <h5>Music</h5>
-                          <p>
-                            How many people will be asking questons? From
-                          </p>
+                          <p>How many people will be asking questons? From</p>
                         </li>
                         <div>
                           <img
@@ -112,7 +110,7 @@ class Discover extends Component {
                         </div>
                       </div>
                     </div>
-
+<div className="container-item">
                     <div className="card pad-top12">
                       <li>
                         <h5>Videos</h5>
@@ -123,7 +121,15 @@ class Discover extends Component {
                           side of
                         </p>
                       </li>
-                      
+
+                      {/* <div className="asset-img">
+                        <img
+                          className=" pad-4"
+                          src={process.env.PUBLIC_URL + "/graphics/img-asset1.jpg"}
+                          alt=""
+                        />
+                      </div> */}
+                    </div>
                     </div>
                     <div className="container-item">
                       <div className="card pad-top12">
@@ -138,11 +144,10 @@ class Discover extends Component {
                         </li>
                         <div>
                           <img
-                            className="img-big"
+                            className="img-big pad-4"
                             src={process.env.PUBLIC_URL + "/graphics/ch.jpg"}
                             alt=""
                           />
-                         
                         </div>
                       </div>
                     </div>

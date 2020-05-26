@@ -23,9 +23,9 @@ $spaceamounts: (0, 2, 3, 4);
     // .my-#{$space} {
     //     margin: #{$space}rem 0;
     // }
-    // .p-#{$space} {
-    //     padding: #{$space}rem;
-    // }
+    .pad-#{$space} {
+        padding-top: #{$space}rem;
+    }
     // .py-#{$space} {
     //     padding: #{$space}rem 0;
     // }
