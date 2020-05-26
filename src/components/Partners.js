@@ -1,15 +1,12 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from "react-foundation";
-import CountTo from 'react-count-to'
+import CountUp from 'react-countup'
 import styled from 'styled-components'
 import {partnersItem} from './data'
 import {ProductConsumer} from './context'
 import PartnersList from './PartnersList';
 
 export default class Partners extends Component {
-  //  state = {
-  //    products : partnersItem
-  //  };
    render(){ 
 
     return (
@@ -22,22 +19,23 @@ export default class Partners extends Component {
         </Grid>
         <Grid className="stats">
           <Cell medium={4}>
-            <CountTo to={560000} speed={3600}></CountTo>
+            <CountUp end={560000} duration={2.75} separator=","></CountUp>
             <hr />
             <p>acive users</p>
           </Cell>
           <Cell medium={3}>
-            <CountTo to={148} separator="," speed={3600}></CountTo>
+            <CountUp end={148} duration={2.75} separator=","></CountUp>
             <hr />
             <p>routes covered</p>
           </Cell>
           <Cell medium={3}>
-            <CountTo to={2700} speed={3600}></CountTo>
+            <CountUp end={2700} duration={2.75} separator=","></CountUp>
             <hr />
             <p>hotspots</p>
           </Cell>
           <Cell medium={2}>
-            <CountTo to={865} speed={3600}></CountTo>
+            {/* <CountTo to={865} speed={3600}></CountTo> */}
+            <CountUp end={865} duration={2.75} separator=","></CountUp>
             <hr />
             <p>number of fixed hotspots</p>
           </Cell>
