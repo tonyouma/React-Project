@@ -27,7 +27,7 @@ export default class Partners extends Component {
             <p>acive users</p>
           </Cell>
           <Cell medium={3}>
-            <CountTo to={148} speed={3600}></CountTo>
+            <CountTo to={148} separator="," speed={3600}></CountTo>
             <hr />
             <p>routes covered</p>
           </Cell>
