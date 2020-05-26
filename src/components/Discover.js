@@ -110,26 +110,29 @@ class Discover extends Component {
                         </div>
                       </div>
                     </div>
-<div className="container-item">
-                    <div className="card pad-top12">
-                      <li>
-                        <h5>Videos</h5>
-                        <p>
-                          How many people will be asking questons? From
-                          experience I can tell you there is nothing like
-                          waliking into a room seeing nine people on the other
-                          side of
-                        </p>
-                      </li>
+                    <div className="container-item">
+                      <div className="card pad-top12">
+                        <li>
+                          <h5>Videos</h5>
+                          <p>
+                            How many people will be asking questons? From
+                            experience I can tell you there is nothing like
+                            waliking into a room seeing nine people on the other
+                            side of
+                          </p>
+                        </li>
 
-                      {/* <div className="asset-img">
-                        <img
-                          className=" pad-4"
-                          src={process.env.PUBLIC_URL + "/graphics/img-asset1.jpg"}
-                          alt=""
-                        />
-                      </div> */}
-                    </div>
+                        <div className="">
+                          {/* <img
+                            className="card-img pad-4"
+                            src={
+                              process.env.PUBLIC_URL +
+                              "/graphics/img-asset1.jpg"
+                            }
+                            alt=""
+                          /> */}
+                        </div>
+                      </div>
                     </div>
                     <div className="container-item">
                       <div className="card pad-top12">

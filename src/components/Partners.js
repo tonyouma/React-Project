@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from "react-foundation";
+import CountTo from 'react-count-to'
+import styled from 'styled-components'
 import {partnersItem} from './data'
 import {ProductConsumer} from './context'
 import PartnersList from './PartnersList';
@@ -16,6 +18,29 @@ export default class Partners extends Component {
           <h2>
             <strong>moja</strong> <br></br> statistics
           </h2>
+          {/* const fn = value => <span>{value}</span> */}
+        </Grid>
+        <Grid className="stats">
+          <Cell medium={4}>
+            <CountTo to={560000} speed={3600}></CountTo>
+            <hr />
+            <p>acive users</p>
+          </Cell>
+          <Cell medium={3}>
+            <CountTo to={148} speed={3600}></CountTo>
+            <hr />
+            <p>routes covered</p>
+          </Cell>
+          <Cell medium={3}>
+            <CountTo to={2700} speed={3600}></CountTo>
+            <hr />
+            <p>hotspots</p>
+          </Cell>
+          <Cell medium={2}>
+            <CountTo to={865} speed={3600}></CountTo>
+            <hr />
+            <p>number of fixed hotspots</p>
+          </Cell>
         </Grid>
         <Grid>
           <Cell>
@@ -32,12 +57,12 @@ export default class Partners extends Component {
             </p>
           </Cell>
         </Grid>
-  
+
         <Grid className="grid-padding-x">
           <ProductConsumer>
             {(value) => {
               return value.partnersItem.map((item) => {
-                return <PartnersList key = {item.id} item={item} />;
+                return <PartnersList key={item.id} item={item} />;
               });
             }}
           </ProductConsumer>
@@ -46,4 +71,6 @@ export default class Partners extends Component {
     );
             }
 }
+
+
 

@@ -1,0 +1,19 @@
+@include small-screen {
+    .home {
+        &-content {
+            //    padding-top: 120px;
+            width: 100% !important;
+        }
+    }
+    .layout-pad {
+        padding: 4% 5%;
+    }
+    .connect {
+        .card {
+            height: 290px !important;
+        }
+        &-content {
+            padding: 0 2% !important;
+        }
+    }
+}

@@ -30,3 +30,9 @@ $spaceamounts: (0, 2, 3, 4);
     //     padding: #{$space}rem 0;
     // }
 }
+
+@mixin small-screen {
+    @media screen and (max-width: 39.9375em) {
+        @content;
+    }
+}
