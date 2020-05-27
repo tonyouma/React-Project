@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation'
+import { Link } from "react-router-dom";
 // import {Grid} from 'react-foundation'
 
 export class footer extends Component {
@@ -42,15 +43,15 @@ export class footer extends Component {
                   <hr/>
                   <li>
                     General:{" "}
-                    <a href="mailto:" className="">
-                      info@brck.com
-                    </a>
+                    <Link to="mailto:" className="">
+                      info@brck.com 
+                      </Link>
                   </li>
                   <li>
-                    Media:{" "}
-                    <a href="mailto:" class="white-text">
+                    Media:
+                    <Link to="mailto:">
                       press@brck.com
-                    </a>
+                    </Link>
                   </li>
                   <li>Tel: +254 718 272 887</li>
                   <li>P.O Box 27178-00100</li>
@@ -76,7 +77,7 @@ export class footer extends Component {
                   Copyright © 2019 BRCK inc. All rights reserved
                 </Cell>
                 <Cell medium={4}>
-                  <a href="#!">Warranty | Terms of Use & Privacy Policy</a>
+                  <Link to="#!">Warranty | Terms of Use & Privacy Policy</Link>
                 </Cell>
                 <Cell medium={2}>Made in Kenya</Cell>
               </Grid>

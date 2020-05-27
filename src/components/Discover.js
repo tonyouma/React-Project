@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Grid, Cell} from 'react-foundation'
-import styled from 'styled-components'
 
 class Discover extends Component {
     render() {

@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from "react-foundation";
 import CountUp from 'react-countup'
-import styled from 'styled-components'
-import {partnersItem} from './data'
 import {ProductConsumer} from './context'
 import PartnersList from './PartnersList';
 
@@ -15,28 +13,26 @@ export default class Partners extends Component {
           <h2>
             <strong>moja</strong> <br></br> statistics
           </h2>
-          {/* const fn = value => <span>{value}</span> */}
         </Grid>
         <Grid className="stats">
           <Cell medium={4}>
             <CountUp end={560000} duration={2.75} separator=","></CountUp>
-            <hr />
+            <hr/>
             <p>acive users</p>
           </Cell>
           <Cell medium={3}>
             <CountUp end={148} duration={2.75} separator=","></CountUp>
-            <hr />
+            <hr/>
             <p>routes covered</p>
           </Cell>
           <Cell medium={3}>
             <CountUp end={2700} duration={2.75} separator=","></CountUp>
-            <hr />
+            <hr/>
             <p>hotspots</p>
           </Cell>
           <Cell medium={2}>
-            {/* <CountTo to={865} speed={3600}></CountTo> */}
             <CountUp end={865} duration={2.75} separator=","></CountUp>
-            <hr />
+            <hr/>
             <p>number of fixed hotspots</p>
           </Cell>
         </Grid>

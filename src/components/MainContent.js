@@ -11,12 +11,11 @@ export class MainContent extends Component {
     render() {
          
         return (
-          <Fragment>
+          <React.Fragment>
             {/* Homepage */}
-            <Grid></Grid>
             <section className="home layout-pad">
               <Cell medium={3}>
-                <Link href="/">
+                <Link to="/">
                   <img
                     src={process.env.PUBLIC_URL + "/graphics/Moja-black.png"}
                     alt="logo"
@@ -42,7 +41,7 @@ export class MainContent extends Component {
               </Grid>
               <Grid>
                 <Cell medium={4} className="align-justify" small={6}>
-                  <Link href="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                  <Link to="https://play.google.com/store/apps/details?id=com.brck.moja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                     <img
                       src={process.env.PUBLIC_URL + "/graphics/Group 3.jpg"}
                       alt="google-logo"
@@ -55,14 +54,14 @@ export class MainContent extends Component {
                   small={6}
                 >
                   <div className="menu float-right social-icons ">
-                    <Link href="https://www.facebook.com/brcknet">
-                      <i class="fab fa-facebook-square"></i>
+                    <Link to="https://www.facebook.com/brcknet">
+                      <i className="fab fa-facebook-square"></i>
                     </Link>{" "}
-                    <Link href="https://www.instagram.com/brcknet/">
-                      <i class="fab fa-instagram"></i>
+                    <Link to="https://www.instagram.com/brcknet/">
+                      <i className="fab fa-instagram"></i>
                     </Link>{" "}
-                    <Link href="https://twitter.com/brcknet">
-                      <i class="fab fa-twitter"></i>
+                    <Link to="https://twitter.com/brcknet">
+                      <i className="fab fa-twitter"></i>
                     </Link>
                   </div>
                 </Cell>
@@ -90,7 +89,7 @@ export class MainContent extends Component {
                 </Cell>
               </Grid>
               <Grid className="grid-padding-x">
-                <Cell medium={7} small={12} columns>
+                <Cell medium={7} small={12}>
                   <div className="card">
                     <div className="card-image">
                       <img
@@ -129,7 +128,7 @@ export class MainContent extends Component {
                   <div className="card">
                     <div className="card-body">
                       <span>04</span>
-                      <h5 class="connect-steps">Click On ‘Go Online’</h5>
+                      <h5 className="connect-steps">Click On ‘Go Online’</h5>
                     </div>
                   </div>
                 </Cell>
@@ -171,7 +170,7 @@ export class MainContent extends Component {
                 </div>
               </Cell>
             </Grid>
-          </Fragment>
+          </React.Fragment>
         );
     }
 }
