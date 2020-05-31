@@ -15,22 +15,22 @@ export default class Partners extends Component {
           </h2>
         </Grid>
         <Grid className="stats">
-          <Cell medium={4}>
+          <Cell medium={4} small={6}>
             <CountUp end={560000} duration={2.75} separator=","></CountUp>
             <hr/>
-            <p>acive users</p>
+            <p>active users</p>
           </Cell>
-          <Cell medium={3}>
+          <Cell medium={3} small={6}>
             <CountUp end={148} duration={2.75} separator=","></CountUp>
             <hr/>
             <p>routes covered</p>
           </Cell>
-          <Cell medium={3}>
+          <Cell medium={3} small={6}>
             <CountUp end={2700} duration={2.75} separator=","></CountUp>
             <hr/>
             <p>hotspots</p>
           </Cell>
-          <Cell medium={2}>
+          <Cell medium={2} small={6}>
             <CountUp end={865} duration={2.75} separator=","></CountUp>
             <hr/>
             <p>number of fixed hotspots</p>
