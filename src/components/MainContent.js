@@ -24,7 +24,7 @@ export class MainContent extends Component {
               </Cell>
               <Cell medium={10} small={12} className="home-content">
                 <h1>
-                  we're the ones
+                  we're the ones <br></br>
                   <span> connecting everyone to the internet</span>
                   <hr className="width-11 mar-left-0 yellow-7"></hr>
                 </h1>

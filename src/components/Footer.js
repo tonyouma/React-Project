@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import {Grid, Cell} from 'react-foundation'
 import { Link } from "react-router-dom";
-// import {Grid} from 'react-foundation'
 
 export class footer extends Component {
     render() {
@@ -16,7 +15,7 @@ export class footer extends Component {
                   />
                   <p>CONNECTING EMERGING MARKETS<br></br> TO THE MARKETS</p>
                 </Cell>
-                <Cell medium={4}>
+                <Cell medium={5}>
                   <h4>Solving hard problems</h4>
                   <p>
                     We do hard things. As we grow, we do so in fits and starts,
